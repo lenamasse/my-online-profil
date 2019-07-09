@@ -6,11 +6,15 @@ body {
 }
 
 #canvas {
-  background-image: url("./img/back-ground-photo.jpeg");
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#canvas {
+  background-image: url("./img/pexels-photo-1048035.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
 @media screen and (max-width: 600px) {
   body {
     margin: 0px;
@@ -31,10 +35,9 @@ body {
 
 h1 {
   font-weight: bold;
-  font-style: italic;
   color: rgba(236, 127, 103);
-  font-size: 50px;
-  font-family: "Lato", sans-serif;
+  font-size: 70px;
+  font-family:font-family: 'DM Serif Display', serif;
   padding: 30px 40px;
   text-align: center;
 }
@@ -51,7 +54,7 @@ section {
   background-color: rgba(236, 127, 103);
   padding: 40px 40px;
   color: rgba(255, 255, 255);
-  border-radius: 10px;
+  border-radius:20px;
   border: solid 2px rgba(255, 255, 255);
   font-family: "roboto";
   margin: 40px 120px;
@@ -69,7 +72,7 @@ section {
   height: 40vh;
   margin: 40px 40px;
   border-radius: 50%;
-  border: solid 2px rgba(255, 255, 255);
+  border: solid 2px rgb(255, 109, 109);
 }
 
 h2 {
@@ -116,17 +119,17 @@ ul.bullet {
 
 .fa-folder-open {
   color: rgba(236, 127, 103);
-  font-size: 32px;
+  font-size: 40px;
 }
 
-.fa-linkedin-in {
+.fa-linkedin {
   color: rgba(236, 127, 103);
-  font-size: 32px;
+  font-size: 40px;
 }
 
-.fa-medium-m {
+.fa-medium {
   color: rgba(236, 127, 103);
-  font-size: 32px;
+  font-size: 40px;
 }
 
 /* this is my first commit!!! */
